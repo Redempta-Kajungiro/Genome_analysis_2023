@@ -19,7 +19,7 @@ INPUT_ILLUMINA=/home/redeath/Genome_analysis_2023/data/genomics_data/raw_data/il
 OUTPUT_FILE=/home/redeath/Genome_analysis_2023/work/work_Spades
 
 
-#SPADES assembly pacbio or nanopore and illumina eads for gap closure and repeat resolution
+#SPADES assembly pacbio or nanopore and illumina reads for gap closure and repeat resolution
 spades.py -1 ${INPUT_ILLUMINA}/E745-1.L500_SZAXPI015146-56_1_clean.fq.gz -2 ${INPUT_ILLUMINA}/E745-1.L500_SZAXPI015146-56_2_clean.fq.gz \
     --nanopore ${INPUT_NANOPORE}/E745_all.fasta.gz \
     -o ${OUTPUT_FILE}/spades_output
