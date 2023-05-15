@@ -10,7 +10,6 @@
 
 #load modules
 module load bioinfo-tools spades/3.15.5
-
 #Define variables
 
 #INPUT_PACBIO=/home/redeath/Genome_analysis_2023/data/genomics_data/raw_data/pacBio
