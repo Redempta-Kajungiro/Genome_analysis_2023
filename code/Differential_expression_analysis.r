@@ -4,7 +4,6 @@ if (!require("BiocManager", quietly = TRUE))
 
 BiocManager::install("pasilla")
 
-
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
