@@ -17,4 +17,5 @@ REF=/home/redeath/Genome_analysis_2023/work/work_canu
 OUTPUT_FILE=/home/redeath/Genome_analysis_2023/work/work_quast/canu_q
 
 #QUAST is a software evaluating the quality of genome assemblies by computing various metrics
+#Run QUAST for contigs assembled using Canu with a reference genome
 quast.py ${INPUT_FILE}/faecium.contigs.fasta -r ${REF}/GCF_009734005.1_ASM973400v2_genomic.fna.gz -o ${OUTPUT_FILE}/faecium_quast_ref_report
