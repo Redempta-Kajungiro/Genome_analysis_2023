@@ -17,4 +17,5 @@ REF=//home/redeath/Genome_analysis_2023/work/work_Spades
 OUTPUT_FILE=/home/redeath/Genome_analysis_2023/work/work_Spades
 
 #QUAST is a software evaluating the quality of genome assemblies by computing various metrics
+#Run QUAST for scaffolds assembled using SPAdes with a reference genome
 quast.py ${INPUT_FILE}/scaffolds.fasta -r ${REF}/GCF_009734005.1_ASM973400v2_genomic.fna.gz -o ${OUTPUT_FILE}/faecium_SP_quast_ref_report
